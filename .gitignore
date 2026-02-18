@@ -1,0 +1,21 @@
+# Ambientes virtuais
+venv/
+env/
+.env
+.venv
+
+# Arquivos de dados (Não subir!)
+*.csv
+*.xlsx
+
+# Chaves de API (CRÍTICO: Nunca suba isso)
+kaggle.json
+
+# Arquivos temporários do Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
