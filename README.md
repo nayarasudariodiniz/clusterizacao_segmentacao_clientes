@@ -43,7 +43,7 @@ O modelo identificou 4 clusters distintos de comportamento:
 Clone este repositório e instale as dependências:
 
 ```bash
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
+git clone [https://github.com/nayarasudariodiniz/clusterizacao_segmentacao_clientes.git](https://github.com/nayarasudariodiniz/clusterizacao_segmentacao_clientes.git)
 cd NOME-DO-REPO
 pip install -r requirements.txt
 ```
