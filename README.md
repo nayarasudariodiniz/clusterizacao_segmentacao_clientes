@@ -16,7 +16,8 @@ O projeto foi estruturado simulando um cenário real de produção:
 
 * **Coleta de Dados:** Script automatizado para download de dados via API do Kaggle.
 * **ETL (Extract, Transform, Load):** Limpeza de dados, tratamento de nulos/devoluções e engenharia de atributos (Criação da tabela RFM) utilizando **Pandas**.
-* **Machine Learning:** * Padronização de dados com `StandardScaler`.
+* **Machine Learning:**
+    * Padronização de dados com `StandardScaler`.
     * Clusterização com **K-Means**.
     * Otimização de hiperparâmetros (Método do Cotovelo e Silhouette Score).
 * **Deploy / Aplicação:** Interface interativa desenvolvida em **Streamlit**.
