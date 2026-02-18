@@ -33,7 +33,7 @@ O modelo identificou 4 clusters distintos de comportamento:
 | **🥉 Casuais (Bronze)** | Ticket baixo e compras esporádicas. | Incentivos de volume (cupons). |
 | **⚠️ Inativos (Churn)** | Não compram há muito tempo (+200 dias). | Campanhas de reativação ou limpeza de base. |
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 * Python 3.x
@@ -46,7 +46,7 @@ Clone este repositório e instale as dependências:
 git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
 cd NOME-DO-REPO
 pip install -r requirements.txt
-
+```
 ### 2. Coleta dos Dados (Automática)
 Para baixar a base de dados original ("E-Commerce Data" da UCI), você precisa configurar sua API do Kaggle:
 
@@ -59,6 +59,7 @@ Com os arquivos de modelo (`.pkl`) gerados pelo notebook (ou já presentes no re
 
 ```bash
 streamlit run app.py
+```
 
 O navegador abrirá automaticamente a interface de segmentação.
 
@@ -67,6 +68,7 @@ Para simular novos dados de entrada, execute o script gerador:
 
 ```bash
 python gerar_teste.py
+```
 
 Isso criará o arquivo `novas_entradas.csv`, que pode ser carregado na aplicação Streamlit para validação.
 
